@@ -27,30 +27,38 @@ li {
 img {
     align-items: center;
     align-self: center;
-    padding: 0;
-    min-width: 10%;
-    min-height: 10%;
-    max-width: 100%;
-    max-height: 100%;
+    min-width: 0%;
 }
 
 section1 {
-    background-color: blue;
+    background-color: white;
     padding: 0px;
     margin: 0 ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-indent: -99999999;
+    max-width: 1000px;
+    background-image: url("Bilder/Matur.jpg");
+    margin: 0 auto 0 auto;
 }
 section2 {
-    background-color: white;
     padding: 20px;
-    
+    padding-top: 50px;
+    width: auto;
+    height: 100px;
+    text-align: center;
 }
 
 footer{
     padding: 20px;
     margin-top:auto;
-    min-height:20px; 
+    min-height:10px; 
     background:black; 
 }
 .logos {
-    max-height: 80-px;
+    max-height: 40px;
 }
