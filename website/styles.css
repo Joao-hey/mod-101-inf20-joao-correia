@@ -9,16 +9,27 @@ body{
 header{ 
     min-height:50px; 
     background:black; 
+    padding: 20px;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 li {
     list-style: none;
     display: inline-block;
-    margin-right:  20px;
+    margin-right: 20px;
 }
 
-section {
+section1 {
+    background-color: blue;
+    padding: 20px;
+}
+section2 {
     background-color: white;
+    padding: 20px;
 }
 
 footer{
