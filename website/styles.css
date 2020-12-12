@@ -3,13 +3,13 @@ body{
     margin:0; 
     display:flex; 
     flex-direction:column; 
-    color: gray;
+   
     text-align: center;
 }
 
 header{ 
     min-height:50px; 
-    background:black; 
+    background:gray; 
     padding: 20px;
 }
 
@@ -57,8 +57,6 @@ footer{
     padding: 20px;
     margin-top:auto;
     min-height:10px; 
-    background:black; 
-}
-.logos {
-    max-height: 40px;
+    background:white; 
+    background-color: gray
 }
