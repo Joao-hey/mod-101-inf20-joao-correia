@@ -24,28 +24,32 @@ body{
     text-align: center;
 }
 
-.logo-small {  
+.logo-small { 
+    display: flex;
+    background-color: rgb(6, 0, 0); 
     align-self: center;
-    width: 10%;
-    min-width: 100px;
-    background:none; 
-    padding: 40px;
+    width: ;
+    min-width: 100px; 
+    padding: 20px;
     max-height: px;
 }
 
 .logo-big {  
     align-self: center;
     width: 20%;
-    min-width: 250px;
+    min-width: 30%;
     background:rgb(6, 0, 0); 
     padding: 40px;
-    max-height: px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(167, 38, 60);
 }
 
 ul {
+    display: flex;
     margin-top: 10px;
-    
-    padding: 0;
+    flex-flow: row;
+    align-items: center;
     width: 100%;
 }
 li {
