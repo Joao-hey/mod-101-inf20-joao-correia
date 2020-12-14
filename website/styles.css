@@ -1,5 +1,20 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(167, 38, 60);
+    
+}
 html{
     height: 100%;
+
+}
+header{
+    background: url("bilder/piano.jpg");
+    max-height: ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 35%;
+    font-size: 20px;
 }
 body{
     height:100vh; 
@@ -9,14 +24,27 @@ body{
     text-align: center;
 }
 
-header{ 
-    min-height:50px; 
-    background:gray; 
-    padding: 20px;
+.logo-small {  
+    align-self: center;
+    width: 10%;
+    min-width: 100px;
+    background:none; 
+    padding: 40px;
+    max-height: px;
+}
+
+.logo-big {  
+    align-self: center;
+    width: 20%;
+    min-width: 250px;
+    background:rgb(6, 0, 0); 
+    padding: 40px;
+    max-height: px;
 }
 
 ul {
-    margin: 0;
+    margin-top: 10px;
+    
     padding: 0;
     width: 100%;
 }
@@ -26,12 +54,8 @@ li {
     margin-right: 20px;
 }
 
-img {
-    align-items: center;
-}
-
 section1 {
-    background-color: blue;
+    background-color: black;
     padding: 0px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -53,9 +77,31 @@ section2 {
 }
 
 footer{
+    height: 10%;
     padding: 20px;
     padding-bottom: 50px;
     margin-top:auto;
-    min-height: 20px; 
-    background-color: gray
+    min-height: 150px; 
+    background-color: black
+}
+
+.row{
+    align-items: center;
+    display: flex;
+}
+.column-middle{
+    border-left: solid;
+    border-right: solid;
+    flex: 30%;
+    align-self: center;
+}
+.column-social{
+    flex: 25%;
+    width: auto;
+    margin-right: 15%;
+}
+.column-left{
+    flex: 25%;
+    text-align: left;
+    margin-left: 15%;
 }
