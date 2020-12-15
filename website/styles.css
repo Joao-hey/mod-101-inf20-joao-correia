@@ -6,6 +6,7 @@
 html{
     height: 100%;
     width: auto;
+    background-color: rgb(11, 10, 10);
 }
 
 body{
@@ -18,15 +19,34 @@ body{
 
 header{
     width: 100%;
-    background: url("bilder/piano.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 35%;
     font-size: 20px;
     position: relative;
 }
+
+
+
+.piano::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-image: url("bilder/piano.jpg");
+    background-color: rgb(6, 0, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+  }
+
 nav{
+    position: relative;
     margin-top: 3%;
     background-position-y: 50%;
     background: rgb(6, 0, 0) no-repeat;
