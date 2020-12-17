@@ -3,26 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/6cdd0134c4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="piano">
         <div ></div>
-        <nav class="Background-strip">
-            <ul>
-                <input type="checkbox" id="check">
-                <label for="check">
-                    <i class="fas fa-bars"></i>
-                </label>
-                <label class="logo">Piandone</label>
-                <li class="navBar"><a href="Website.html" class="logo-small">Home</a></li>
-                <li class="navBar"><a href="">How Does it work?</a></li>
-                <li class="navBar"><a href="">Try itt</a></li>
-                <li class="navBar"><a href="">About</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">Brand</a>
+
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <!-- Navbar dropdown -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Dropdown
+          </a>
+          <!-- Dropdown menu -->
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+            >Disabled</a
+          >
+        </li>
+      </ul>
+      <!-- Left links -->
+
+      <!-- Search form -->
+      <form class="d-flex input-group w-auto">
+        <input
+          type="search"
+          class="form-control"
+          placeholder="Type query"
+          aria-label="Search"
+        />
+        <button
+          class="btn btn-outline-primary"
+          type="button"
+          data-mdb-ripple-color="dark"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
     </header>
-    <div class="text">
+    <div class="text1">
         <h1>Title</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam sed a ducimus ex maiores ipsa soluta eius praesentium atque laborum illo voluptatibus sapiente, incidunt, cupiditate magni provident optio! Necessitatibus, amet.</p>
         <p>Exercitationem ipsa quasi ex ullam. Animi laboriosam reprehenderit velit, esse iste eos iure magni itaque quam quasi maxime asperiores repellendus. Blanditiis eveniet magnam eaque cumque explicabo quae itaque nihil quasi.</p>

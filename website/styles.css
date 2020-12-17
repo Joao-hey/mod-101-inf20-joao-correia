@@ -45,53 +45,15 @@ nav{
     display: flex;
     justify-content: center;
 }
-.logo{
-    font-size: 35px;
-    line-height: 80px;
-    justify-content: left;
-    font-weight: bold;
-    padding-right: 10%;
-}
-a{
-    text-decoration: none; 
-}
-nav ul{
-    flex-basis: auto;
-    border-style: solid;
-    padding-bottom: 10px;
-    background: rgba(6, 0, 0, 0.6);
-    text-align: center;
-    width: 100%;
-}
-nav ul li{
-    flex-wrap: nowrap;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    display: inline-block;
-    min-width: 15%;
-    margin: 0 5px;
-}
-nav ul li a{
-    font-weight: bold;
-    flex-basis: 25%;
-    max-width: 20%;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-li a.active, li a:hover{
-    background: rgb(167, 38, 60);
-    color: rgb(6, 0, 0);
-    padding: 10px;
-    transition: .5s;
-    border-radius: 3px;
-}
 
-.text{
+.text1{
     padding: 20px;
     min-height: 100%;
     margin: 0 auto -50px;
     width: 80%;
+}
+.text2{
+
 }
 
 body{
@@ -101,10 +63,9 @@ body{
 
 
 .footer {
-    border: red;
-    border-style: solid;
     padding: 20px;
     height: auto;
+    margin-top: auto;
     background-color: rgb(6, 0, 0);
     text-align: center;
     display: flex;
