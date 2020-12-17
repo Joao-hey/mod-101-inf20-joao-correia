@@ -10,25 +10,12 @@
     color: rgb(167, 38, 60) !important;
     background: rgb(6, 0, 0);
 }
-.navbar-brand{
-    color: white;
-}
 html{
     height: 100%;
     width: 100%;
     background-color: rgb(11, 10, 10);
 }
-span.navbar-toggler-icon{
-    color: rgb(167, 38, 60);
-}
-.navbar-toggler-icon{
-    color: brown !important;
-    padding: 10px;
-}
-.nav-link:active{
-    background-color: brown;
-    padding: 5px;
-}
+
 .navbar-toggler {
     background: rgb(167, 38, 60);
     color: rgb(167, 38, 60);
@@ -42,7 +29,7 @@ header{
     margin: 0;
     position: relative;
 }
-.piano::before{
+.foto::before{
     content: '';
     position: absolute;
     top: 0;
@@ -66,15 +53,6 @@ header{
     margin-left: 5px;
 }
 .nav-link{
-    color: rgb(167, 38, 60) !important;
-}
-.navbar-toggler{
-    color: rgb(167, 38, 60) !important;
-}
-.navbar-toggler-icon{
-    color: rgb(167, 38, 60) !important;
-}
-nav button{
     color: rgb(167, 38, 60) !important;
 }
 .text1{
@@ -122,5 +100,31 @@ body{
     text-align: left;
     margin-left: 15%;
 }
-
+@media(max-width: 770px){
+    .footer{
+        margin: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .column-middle{
+        border: none;
+        margin: 0;
+    }
+    .column-left{
+        flex: 25%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .column-social{
+        flex: 25%;
+        width: auto;
+        margin-right: 0;
+    }
+    footer div{
+    padding-bottom: 50px;
+    margin: 0;
+    }
+}
 
