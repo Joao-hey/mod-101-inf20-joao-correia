@@ -1,15 +1,20 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(167, 38, 60);
-    /*border: red;
-    border-style: solid;*/
+    font-family: Arial, Helvetica, sans-serif;    
+}
+nav{
+    background: rgb(6, 0, 0);
+}
+.navbar{
+    background-color: rgb(167, 38, 60) !important;
+}
+.navbar-brand{
+    color: white;
 }
 html{
     height: 100%;
     width: 100%;
     background-color: rgb(11, 10, 10);
 }
-
 
 header{
     width: 100%;
@@ -35,15 +40,6 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(5px);
-}
-
-nav{
-    position: relative;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
 }
 
 .text1{
