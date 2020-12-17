@@ -1,11 +1,14 @@
 * {
     font-family: Arial, Helvetica, sans-serif;    
+    color: rgb(167, 38, 60);
 }
-nav{
-    background: rgb(6, 0, 0);
+
+.navbar-nav{
+    color: rgb(167, 38, 60);
 }
 .navbar{
-    background-color: rgb(167, 38, 60) !important;
+    color: rgb(167, 38, 60) !important;
+    background: rgb(6, 0, 0);
 }
 .navbar-brand{
     color: white;
@@ -15,7 +18,21 @@ html{
     width: 100%;
     background-color: rgb(11, 10, 10);
 }
-
+span.navbar-toggler-icon{
+    color: rgb(167, 38, 60);
+}
+.navbar-toggler-icon{
+    color: brown !important;
+    padding: 10px;
+}
+.nav-link:active{
+    background-color: brown;
+    padding: 5px;
+}
+.navbar-toggler {
+    background: rgb(167, 38, 60);
+    color: rgb(167, 38, 60);
+}
 header{
     width: 100%;
     background-position: center;
@@ -41,20 +58,39 @@ header{
     background-size: cover;
     filter: blur(5px);
 }
-
+.navbar-brand{
+    margin-left: 10%;
+    color: rgb(167, 38, 60) !important;
+}
+.navbar-nav{
+    margin-left: 5px;
+}
+.nav-link{
+    color: rgb(167, 38, 60) !important;
+}
+.navbar-toggler{
+    color: rgb(167, 38, 60) !important;
+}
+.navbar-toggler-icon{
+    color: rgb(167, 38, 60) !important;
+}
+nav button{
+    color: rgb(167, 38, 60) !important;
+}
 .text1{
     padding: 20px;
-    min-height: 100%;
+    min-height: auto;
+    max-height: 500vh;
     margin: 0 auto -50px;
     width: 80%;
+    padding-bottom: 50px;
 }
-.text2{
 
-}
 
 body{
-    height: 100%;
+    height: auto;
     margin: 0;
+    background-color: rgb(21, 20, 20) !important;
 }
 
 
