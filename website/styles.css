@@ -55,7 +55,25 @@ header{
 .nav-link{
     color: rgb(167, 38, 60) !important;
 }
+.title{
+    text-align: center;
+}
+.title a{
+    color: inherit;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(6, 0, 0);
+    background: rgb(167, 38, 60);
+}
+.title a:hover{
+    padding: 10px;
+    border-radius: 3px;
+    color: rgb(6, 0, 0);
+    background: rgb(167, 38, 60);
+    transition: .5s;
+}
 .text1{
+    
     padding: 20px;
     min-height: auto;
     max-height: 500vh;
@@ -63,7 +81,21 @@ header{
     width: 80%;
     padding-bottom: 50px;
 }
-
+.text2{
+    padding: 20px;
+    min-height: 100px;
+    height: 100%;
+    max-height: 500vh;
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 50%;
+    background: rgba(6, 0, 0, 0.5);
+    display: flex;
+    margin-bottom: 60px;
+}
+.nav-item:active{
+    background: rgb;
+}
 
 body{
     height: auto;

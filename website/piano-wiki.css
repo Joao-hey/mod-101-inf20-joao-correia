@@ -56,6 +56,35 @@ header{
 .nav-link{
     color: rgb(167, 38, 60) !important;
 }
+.way{
+    padding: 10px 0 0 0;
+    align-items: center;
+    background: rgb(6, 0, 0);
+
+}
+.way-link{
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+.way-link a{
+    margin: 10px;
+    align-items: center;
+    color: rgb(167, 38, 60);
+    position: relative;
+    list-style: none;
+    height: auto;
+    text-decoration: none;
+}
+.way-link a:hover{
+    color: rgb(6, 0, 0);
+    background: rgb(167, 38, 60);
+    padding: 10px;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    transition: .5s;
+}
 .wiki{
     display: flex;
     flex-direction: column;
