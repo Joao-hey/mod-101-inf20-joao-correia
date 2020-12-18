@@ -1,6 +1,8 @@
 * {
     font-family: Arial, Helvetica, sans-serif;    
     color: rgb(167, 38, 60);
+    list-style: none;
+    text-decoration: none;
 }
 
 
@@ -46,6 +48,7 @@ header{
     background-size: cover;
     filter: blur(1px);
 }
+
 .navbar-brand{
     margin-left: 10%;
     color: rgb(167, 38, 60) !important;
@@ -56,14 +59,48 @@ header{
 .nav-link{
     color: rgb(167, 38, 60) !important;
 }
+.way{
+    padding: 10px;
+    align-items: center;
+    background: rgb(6, 0, 0);
+
+}
+.way-link{
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+.way-link a{
+    margin: 10px;
+    align-items: center;
+    color: rgb(167, 38, 60);
+    position: relative;
+    list-style: none;
+    height: auto;
+    text-decoration: none;
+}
+.way-link a:hover{
+    color: rgb(6, 0, 0);
+    background: rgb(167, 38, 60);
+    padding: 10px;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    transition: .5s;
+}
 .wiki{
+    list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     flex-flow: row;
     flex-wrap: wrap;
+    
+    min-height: 100px;
+    height: 100%;
 }
 .link-spieler{
+    list-style: none;
     text-decoration: none;
     max-width: 35%;
     justify-content: space-between;
