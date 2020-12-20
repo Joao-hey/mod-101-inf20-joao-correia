@@ -2,24 +2,11 @@
     font-family: Arial, Helvetica, sans-serif;    
     color: rgb(167, 38, 60);
 }
-
-.navbar-nav{
-    color: rgb(167, 38, 60);
-}
-.navbar{
-    color: rgb(167, 38, 60) !important;
-    background: rgb(6, 0, 0);
-}
 html{
     height: 100%;
     width: 100%;
-    background-color: rgb(11, 10, 10);
 }
 
-.navbar-toggler {
-    background: rgb(167, 38, 60);
-    color: rgb(167, 38, 60);
-}
 header{
     width: 100%;
     background-position: center;
@@ -28,6 +15,9 @@ header{
     min-height: 35vh;
     margin: 0;
     position: relative;
+}
+body{
+    background-color: rgb(21, 20, 20) !important;
 }
 .foto::before{
     content: '';
@@ -45,69 +35,94 @@ header{
     background-size: cover;
     filter: blur(5px);
 }
+/*navbar*/
+.navbar{
+    color: rgb(167, 38, 60) !important;
+    background: rgb(6, 0, 0);
+}
 .navbar-brand{
     margin-left: 10%;
     color: rgb(167, 38, 60) !important;
 }
-.navbar-nav{
-    margin-left: 5px;
-}
 .nav-link{
     color: rgb(167, 38, 60) !important;
 }
-.title{
-    text-align: center;
+/*Navbar!*/
+/*way*/
+.way{
+    padding: 10px 0 0 0;
+    align-items: center;
+    background: rgb(6, 0, 0);
+
 }
-.title a{
-    color: inherit;
-    text-decoration: none;
-    padding: 5px;
-    color: rgb(6, 0, 0);
-    background: rgb(167, 38, 60);
-}
-.title a:hover{
+.way-link{
+    align-items: center;
+    width: 100%;
     padding: 10px;
-    border-radius: 3px;
+    padding-left: 100px;
+}
+.way-link a{
+    margin: 10px;
+    align-items: center;
+    color: rgb(167, 38, 60);
+    position: relative;
+    list-style: none;
+    height: auto;
+    text-decoration: none;
+}
+.way-link a:hover{
     color: rgb(6, 0, 0);
     background: rgb(167, 38, 60);
+    padding: 10px;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
     transition: .5s;
 }
-.text1{
-    
-    padding: 20px;
-    min-height: auto;
-    max-height: 500vh;
-    margin: 0 auto -50px;
-    width: 80%;
-    padding-bottom: 50px;
-}
-.text2{
-    padding: 20px;
-    min-height: 100px;
-    height: 100%;
-    max-height: 500vh;
-    width: 90%;
-    margin-top: 5%;
-    margin-bottom: 50%;
-    background: rgba(6, 0, 0, 0.5);
+/*way!*/
+.text-flex{
+    flex-wrap: wrap;
     display: flex;
-    margin-bottom: 60px;
+    justify-content: space-evenly;
+    align-items: center;}
+.text{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    text-decoration: none;
+    min-height: 350px;
+    width: 90%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background: rgba(6, 0, 0, 0.5);
 }
-.text-bilder {
-    background-image: url(bilder/piano.jpg);
-    max-height: 10vh;
+.column{
+    display: flex;
+    width: 50%;
+    flex: 50%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 100% 100%;
+    border-radius: 30px;
+    flex-flow: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 1%;
 }
-.nav-item:active{
-    background: rgb;
+.column-img{
+    margin-left: 20px;
+    height: 100%;
+    align-content: center;
+}
+.img{
+  max-height: 300px;
+  min-width: 40px;
+  max-width: 100%;
 }
 
-body{
-    height: auto;
-    margin: 0;
-    background-color: rgb(21, 20, 20) !important;
-}
-
-
+/*footer*/
 .footer {
     padding: 20px;
     height: auto;
@@ -136,9 +151,18 @@ body{
     text-align: left;
     margin-left: 15%;
 }
+/*footer!*/
+
+/*@media*/
 @media(max-width: 770px){
+    .text-flex{
+        flex-direction: column;
+    }
+    .text{
+        width: 80%;
+    }
     .footer{
-        margin: 20px;
+        margin-top: 20px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -163,4 +187,4 @@ body{
     margin: 0;
     }
 }
-
+/*@media!*/

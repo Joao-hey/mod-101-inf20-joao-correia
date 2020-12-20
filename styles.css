@@ -2,24 +2,11 @@
     font-family: Arial, Helvetica, sans-serif;    
     color: rgb(167, 38, 60);
 }
-
-.navbar-nav{
-    color: rgb(167, 38, 60);
-}
-.navbar{
-    color: rgb(167, 38, 60) !important;
-    background: rgb(6, 0, 0);
-}
 html{
     height: 100%;
     width: 100%;
-    background-color: rgb(11, 10, 10);
 }
 
-.navbar-toggler {
-    background: rgb(167, 38, 60);
-    color: rgb(167, 38, 60);
-}
 header{
     width: 100%;
     background-position: center;
@@ -29,6 +16,10 @@ header{
     margin: 0;
     position: relative;
 }
+body{
+    background-color: rgb(21, 20, 20) !important;
+}
+
 .foto::before{
     content: '';
     position: absolute;
@@ -45,17 +36,23 @@ header{
     background-size: cover;
     filter: blur(5px);
 }
+/*navbar*/
+.navbar{
+    color: rgb(167, 38, 60) !important;
+    background: rgb(6, 0, 0);
+}
 .navbar-brand{
     margin-left: 10%;
     color: rgb(167, 38, 60) !important;
 }
-.navbar-nav{
-    margin-left: 5px;
-}
 .nav-link{
     color: rgb(167, 38, 60) !important;
 }
+/*Navbar!*/
+
+/*Center*/
 .title{
+    margin-top: 40px;
     text-align: center;
 }
 .title a{
@@ -72,8 +69,9 @@ header{
     background: rgb(167, 38, 60);
     transition: .5s;
 }
-.text1{
-    
+
+.text-titel{
+    min-height: 100%;
     padding: 20px;
     min-height: auto;
     max-height: 500vh;
@@ -81,29 +79,26 @@ header{
     width: 80%;
     padding-bottom: 50px;
 }
-.text2{
-    padding: 20px;
-    min-height: 100px;
-    height: 100%;
-    max-height: 500vh;
-    width: 90%;
-    margin-top: 5%;
-    margin-bottom: 50%;
-    background: rgba(6, 0, 0, 0.5);
+.text-flex{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.text{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 20px;
+    min-height: 300px;
+    width: 48%;
+    margin-top: 5%;
     margin-bottom: 60px;
+    background: rgba(6, 0, 0, 0.5);
 }
-.nav-item:active{
-    background: rgb;
-}
+/*Center!*/
 
-body{
-    height: auto;
-    margin: 0;
-    background-color: rgb(21, 20, 20) !important;
-}
-
-
+/*footer*/
 .footer {
     padding: 20px;
     height: auto;
@@ -132,9 +127,18 @@ body{
     text-align: left;
     margin-left: 15%;
 }
+/*footer!*/
+
+/*@media*/
 @media(max-width: 770px){
+    .text-flex{
+        flex-direction: column;
+    }
+    .text{
+        width: 80%;
+    }
     .footer{
-        margin: 20px;
+        margin-top: 20px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -159,4 +163,4 @@ body{
     margin: 0;
     }
 }
-
+/*@media!*/
